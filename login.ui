@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wide Latin</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/icons/background.jpg);</string>
+    </property>
+    <widget class="QWidget" name="log" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>110</y>
+       <width>651</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/icon/icons/login.jpg);</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>30</y>
+        <width>300</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>50</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(0,0,0,0)</string>
+      </property>
+      <property name="text">
+       <string>Log in</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="email">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>280</y>
+        <width>350</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>18</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-top-left-radius: 10%;
+border-bottom: 5px solid rgb(133,94,66);
+padding-bottom : 7px</string>
+      </property>
+      <property name="placeholderText">
+       <string>Email</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="password">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>390</y>
+        <width>350</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>18</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-top-left-radius: 10%;
+border-bottom: 5px solid rgb(133,94,66);
+padding-bottom : 7px</string>
+      </property>
+      <property name="placeholderText">
+       <string>PassWord</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="login">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>470</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#login {
+background: rgb(133, 94, 66);
+border-radius: 10%;}
+QPushButton#login:hover{
+background:rgb(1, 50, 32);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>login</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="singup">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>670</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#singup {
+background: rgb(133, 94, 66);
+border-radius: 10%;}
+QPushButton#singup:hover{
+background:rgb(1, 50, 32);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sign up</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>620</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(0, 0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>pour cree un compte</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>170</y>
+        <width>341</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="error"/>
+     </widget>
+     <widget class="QPushButton" name="forgot">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>560</y>
+        <width>321</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#forgot {
+background: rgb(0, 0, 0, 0);
+border-radius: 10%;}
+QPushButton#forgot:hover{
+background:rgb(1, 50, 32);
+border-radius:10%;
+color: white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>forgot password ?</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1190</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Script MT Bold</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/icons/background.jpg);</string>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>110</y>
+       <width>871</width>
+       <height>591</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Script MT Bold</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/icon/icons/frgt.png);
+background-repeat: no-repeat</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>321</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="welcome"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>160</y>
+        <width>321</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="qst"/>
+     </widget>
+     <widget class="QLineEdit" name="rep">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-top-left-radius: 10%;
+border-bottom: 5px solid rgb(133,94,66);
+padding-bottom : 7px
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Answer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="submit">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>470</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#submit {
+background: rgb(133, 94, 66);
+border-radius: 10%;}
+QPushButton#submit:hover{
+background:rgb(1, 50, 32);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="chp" native="true">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>40</y>
+        <width>351</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0,0,0,0)</string>
+      </property>
+      <widget class="QLineEdit" name="newp">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>319</width>
+         <height>53</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Script MT Bold</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-top-left-radius: 10%;
+border-bottom: 5px solid rgb(133,94,66);
+padding-bottom : 7px
+</string>
+       </property>
+       <property name="placeholderText">
+        <string>New password</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="confirm">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>321</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Script MT Bold</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-top-left-radius: 10%;
+border-bottom: 5px solid rgb(133,94,66);
+padding-bottom : 7px
+</string>
+       </property>
+       <property name="placeholderText">
+        <string>Confirm password</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="changep">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>430</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Script MT Bold</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#changep {
+background: rgb(133, 94, 66);
+border-radius: 10%;}
+QPushButton#changep:hover{
+background:rgb(1, 50, 32);
+border-radius:10%;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Change</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>319</width>
+         <height>99</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="erp"/>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>321</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="erc"/>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

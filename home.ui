@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icon/icons/background.jpg);</string>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1200</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Script MT Bold</family>
+       <pointsize>40</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(0,0,0,0);
+color: rgb(253, 226, 139);</string>
+     </property>
+     <property name="text">
+      <string> Welcome to our library</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>120</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>149</y>
+       <width>401</width>
+       <height>801</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(133, 94, 66);
+border-radius:10%</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>381</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(0,0,0,0);
+color: rgb(253, 226, 139);
+</string>
+      </property>
+      <property name="text">
+       <string>              Search Bar</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="title">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-bottom: 5px solid  rgb(253, 226, 139);
+padding-bottom : 7px</string>
+      </property>
+      <property name="placeholderText">
+       <string> Title </string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>40</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/icon/icons/s.png);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="author">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-bottom: 5px solid  rgb(253, 226, 139);
+padding-bottom : 7px</string>
+      </property>
+      <property name="placeholderText">
+       <string> Author</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="year">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>361</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : rgba(128, 128, 128,.5);
+border: none;
+border-bottom: 5px solid  rgb(253, 226, 139);
+padding-bottom : 7px</string>
+      </property>
+      <property name="placeholderText">
+       <string>  Year </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="search">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>410</y>
+        <width>171</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#search {
+background: rgb(1, 50, 32);
+border-radius: 10%;}
+QPushButton#search:hover{
+background:rgb(253, 226, 139);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>560</y>
+        <width>171</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#add {
+background: rgb(1, 50, 32);
+border-radius: 10%;}
+QPushButton#add:hover{
+background:rgb(253, 226, 139);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>470</y>
+        <width>381</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(0,0,0,0);
+color: rgb(253, 226, 139);
+</string>
+      </property>
+      <property name="text">
+       <string> You can add a book </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="all">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>410</y>
+        <width>171</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#all {
+background: rgb(1, 50, 32);
+border-radius: 10%;}
+QPushButton#all:hover{
+background:rgb(253, 226, 139);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Show all</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>610</y>
+        <width>381</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(0,0,0,0);
+color: rgb(253, 226, 139);
+</string>
+      </property>
+      <property name="text">
+       <string> You can delete a book </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="dlt">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>720</y>
+        <width>171</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Script MT Bold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#dlt {
+background: rgb(1, 50, 32);
+border-radius: 10%;}
+QPushButton#dlt:hover{
+
+background:rgb(170, 0, 0);
+border-radius:10%;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="list">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>190</y>
+       <width>751</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>751</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/icon/icons/login.jpg);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>title</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>auteur</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>year</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>cover</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
